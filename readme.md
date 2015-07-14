@@ -86,3 +86,6 @@ License
 -------
 
 MIT
+
+Copyright 2015 [JP Richardson](https://github.com/jprichardson)
+
