@@ -1,4 +1,7 @@
 function isRenderer () {
+  // running in a web browser
+  if (typeof process === 'undefined') return true
+  
   // node-integration is disabled
   if (!process) return true
 
