@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "description": "Check if code is running in Electron renderer process.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "standard && mocha"
   },
