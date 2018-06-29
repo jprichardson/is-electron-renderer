@@ -19,14 +19,6 @@ renderers would send log data to the `main`. Would allow your code to have one `
 - Testing. Your test code may behave differently if the DOM is available.
 - Normalize `console.log` behavior. `console.log` behavior is weird in `renderer`, this can easily be fixed.
 
-### Why Use a One Line Module?
-
-Excellent discussion here: https://github.com/sindresorhus/ama/issues/10. If that doesn't convince you,
-then maybe the fact that Electron could change the way that they inherit `global` in `renderer` and
-if they do, you would have to change your code whereas if you used this module, you'd just have to update
-to the latest version =)
-
-
 Install
 -------
 
