@@ -11,4 +11,4 @@ function isRenderer () {
   return process.type === 'renderer'
 }
 
-module.exports = isRenderer()
+if (typeof module !== 'undefined') module.exports = isRenderer()
